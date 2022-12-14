@@ -1,12 +1,13 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "云层上的光|初心的博客",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "scripts": {},
+  "keywords": [
+    "blog",
+    "chuxin"
+  ],
+  "author": "云层上的光|初心",
   "license": "ISC"
 }
