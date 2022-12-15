@@ -7,9 +7,11 @@
 
 ## JavaScript基础系列
 
-## 前端工程化系列
 
-## hooks系列 (chuxin-hooks)
+## 前端工程化系列
+1.[浅谈前端模块化的发展历程](https://github.com/chuxin-cs/blog/issues/2)
+
+## chuxin-hooks系列
 
 
 ## 勘误及提问
