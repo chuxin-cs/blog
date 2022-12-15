@@ -5,14 +5,8 @@
 * [掘金](https://juejin.cn/user/4262122786936445)
 * [语雀](https://www.yuque.com/chuxin-cs/docs/igh2w8t6ym8vmgl6)
 
-## JavaScript基础系列
-
-
 ## 前端工程化系列
 1.[浅谈前端模块化的发展历程](https://github.com/chuxin-cs/blog/issues/2)
-
-## chuxin-hooks系列
-
 
 ## 勘误及提问
 
