@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "云层上的光|初心的博客",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 8080",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "deploy": "bash deploy.sh"
+  },
   "keywords": [
     "blog",
     "chuxin"
   ],
   "author": "云层上的光|初心",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.34"
+  }
 }
