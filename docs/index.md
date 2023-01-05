@@ -15,37 +15,28 @@ hero:
       link: /business/
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/vueuse/vueuse
+      link: https://github.com/chuxin-cs
     - theme: alt
       text: 关于我
       link: /chuxin/
 
 features:
   - title: 源码系列
-    details: 计划出品自己的源码系列文章
+    details: Vue全家桶、hooks系列
     icon: 🎛
   - title: 业务沉淀
-    details: 计划出品自己的源码系列文章
+    details: 工作中业务沉淀
     icon: 🚀
   - title: 前端工程化
-    details: 计划出品自己的源码系列文章
+    details: vite、webpack、rollup、esbuild等
     icon: ⚡
   - title: 工具百宝箱
-    details: 计划出品自己的源码系列文章
+    details: 前端工具百宝箱
     icon: 🦾
-  - title: 待定
-    details: 计划出品自己的源码系列文章
+  - title: JavaScript基础
+    details: JavaScript回炉重造
     icon: 🛠
-  - title: 待定
-    details: 计划出品自己的源码系列文章
+  - title: hooks系列
+    details: VueUse、ahooks
     icon: ☁️
-  - title: 待定
-    details: 计划出品自己的源码系列文章
-    icon: 🔋
-  - title: 待定
-    details: 计划出品自己的源码系列文章
-    icon: 🎪
-  - title: 待定
-    details: 计划出品自己的源码系列文章
-    icon: 🔌
 ---

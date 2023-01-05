@@ -2,7 +2,7 @@
  * author 云层上的光|初心
  * description 工具百宝箱
  */
-export const ToolChest = [
+export default [
     { text: '前言', link: '/tool-chest/' },
     { text: '玩转Git', link: '/tool-chest/git' },
     { text: '玩转nginx配置', link: '/tool-chest/nginx' },
