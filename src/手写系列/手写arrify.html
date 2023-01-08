@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手写arrify</title>
+</head>
+
+<body>
+    <script>
+        function arrify(value) {
+            if (value === null || value === undefined) {
+                return [];
+            }
+
+            if (Array.isArray(value)) {
+                return value;
+            }
+
+            if (typeof value === 'string') {
+                return [value];
+            }
+
+            if (typeof value[Symbol.iterator] === 'function') {
+                return [...value];
+            }
+
+            return [value];
+        }
+    </script>
+</body>
+
+</html>
