@@ -14,13 +14,22 @@
     </div>
 
     <script>
+        Array.prototype.forEach = function () {
+            var _this = this,
+                _len = this.length,
+                thisArg = arguments[1] || window;
+
+            if (typeof callback !== 'function') {
+                throw new Error(`${callback} is not a function`);
+            }
+
+            // for循环
+            for (var i = 0; i < _len; i++) {
+                callback.apply(thisArg, [_arr[i], i, _arr]);
+            }
 
 
-
-
-
-
-
+        }
     </script>
 </body>
 
